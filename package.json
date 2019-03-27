@@ -1,0 +1,21 @@
+{
+  "name": "AnalyticsPetty",
+  "version": "1.0.0",
+  "description": "App that works as analytic engine for mobile PettyApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "sfm,fvm,acf",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
+  }
+}
