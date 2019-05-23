@@ -28,7 +28,8 @@ function retrieveLosts(){
                 "urlImage":j.urlImage.stringValue,
                 "name":j.name.stringValue,
                 "xLongitude":j.x.doubleValue,
-                "yLatitude":j.y.doubleValue
+                "yLatitude":j.y.doubleValue,
+                "timestamp":i.createTime
             })
         }
         writeJSONFile(filenameToWrite, lostsJSON)

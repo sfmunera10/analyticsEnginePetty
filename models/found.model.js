@@ -24,7 +24,8 @@ function retrieveFounds(){
                 "description":j.description.stringValue,
                 "urlImage":j.urlImage.stringValue,
                 "xLongitude":j.x.doubleValue,
-                "yLatitude":j.y.doubleValue
+                "yLatitude":j.y.doubleValue,
+                "timestamp":i.createTime
             })
         }
         writeJSONFile(filenameToWrite, foundsJSON)

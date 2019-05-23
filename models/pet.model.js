@@ -26,7 +26,8 @@ function retrievePets(){
                 "imageFileName":j.imageFileName.stringValue,
                 "age":j.age.integerValue,
                 "urlImage":j.urlImage.stringValue,
-                "name":j.name.stringValue
+                "name":j.name.stringValue,
+                "timestamp":i.createTime
             })
         }
         writeJSONFile(filenameToWrite, petsJSON)

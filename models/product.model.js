@@ -26,7 +26,8 @@ function retrieveProducts(){
                 "vet":j.vet.stringValue,
                 "type":j.type.stringValue,
                 "price":j.price.doubleValue,
-                "imageFileName":j.imageFileName.stringValue
+                "imageFileName":j.imageFileName.stringValue,
+                "timestamp":i.createTime
             })
         }
         writeJSONFile(filenameToWrite, productsJSON)

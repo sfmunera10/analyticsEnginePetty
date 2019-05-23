@@ -23,7 +23,8 @@ function retrieveEmergencies(){
             emergenciesJSON.push({"id":newID,
                 "description":j.description.stringValue, 
                 "xLongitude":j.x.doubleValue,
-                "yLatitude":j.x.doubleValue
+                "yLatitude":j.x.doubleValue,
+                "timestamp":i.createTime
             })
         }
         writeJSONFile(filenameToWrite, emergenciesJSON)
